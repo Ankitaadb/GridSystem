@@ -9,7 +9,7 @@ const HomeComponent = ({ videos, handleChange, shouldShowModal,
             <div className="row">
                 <div className="col-2"><h4 className="text-center">Youtube Videos</h4></div>
                 <div className="col-6 search"><input type="text" placeholder="Search.." value={keyword} onChange={(event) => handleChange('keyword', event.target.value)} />
-                    <button type="submit" onClick={searchVideos}><i class="fa fa-search"></i></button></div>
+                    <button type="submit" onClick={searchVideos}><i className="fa fa-search"></i></button></div>
                 <div className="col-4"></div>
             </div>
             <div className="row">
